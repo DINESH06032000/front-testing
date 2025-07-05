@@ -9,7 +9,7 @@ function Fetch() {
   useEffect(() => {
     fetch("https://testing-backend-91bc.onrender.com/sql") // from public folder
       .then(response => response.json())
-      .then(json => setData(json.a));
+      .then(json => setData(json));
   }, []);
 
   return (

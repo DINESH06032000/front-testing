@@ -7,7 +7,7 @@ function Fetch() {
    const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/sql") // from public folder
+    fetch("https://testing-backend-91bc.onrender.com/sql") // from public folder
       .then(response => response.json())
       .then(json => setData(json.a));
   }, []);

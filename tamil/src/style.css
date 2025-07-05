@@ -1,0 +1,28 @@
+.box {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.img_box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 5px auto 0px;
+
+}
+
+.img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+}
+.a{
+    display: flex;
+    
+}

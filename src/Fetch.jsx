@@ -18,7 +18,7 @@ function Fetch() {
       <ul>
         {data.map(item => (
           <>
-          <li >{item.name}</li>
+          <li key={item.id}>{item.name}</li>
           
           </>
         ))}

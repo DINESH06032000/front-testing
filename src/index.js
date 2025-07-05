@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Fetch from './Fetch';
-import Put from './Put';
+
 
 
 
@@ -13,7 +13,7 @@ root.render(
     {/* <Sample /> */}
     {/* <Hello/> */}
     <Fetch />
-    {/* <Put /> */}
+    
 
   </React.StrictMode>
 );
